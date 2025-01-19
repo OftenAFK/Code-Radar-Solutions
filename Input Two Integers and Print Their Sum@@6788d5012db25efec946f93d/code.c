@@ -6,6 +6,6 @@ int main(void)
     printf("");
     scanf("%i %i", first, second);
 
-    sum= first+ second;
+    int sum= first+ second;
     printf("Sum: %i\n", sum);
 }
