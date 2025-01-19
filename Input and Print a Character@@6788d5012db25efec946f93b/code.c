@@ -6,9 +6,9 @@ char* welcome() {
 
 int main(void)
 {
-    char character[2];
+    char character;
     printf("");
-    scanf("%2s", character);
+    scanf("%s", &character);
 
-    printf("You entered: %2s", character);
+    printf("You entered: %s", character);
 }
