@@ -2,7 +2,7 @@
 
 float area(float radius)
 {
-    float counter = 2 * 3.14159 * radius;
+    float counter = 3.14159 * radius * radius;
     return counter;
 }
 
