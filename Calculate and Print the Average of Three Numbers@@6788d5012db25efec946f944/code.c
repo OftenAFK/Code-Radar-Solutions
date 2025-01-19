@@ -14,7 +14,7 @@ int main(void)
     scanf("%i %i %i", &first, &second, &third);
 
     float result= (float)average(first, second, third);
-    printf("Average: %i\n", result);
+    printf("Average: %.2f\n", result);
 
     return 0;
 }
