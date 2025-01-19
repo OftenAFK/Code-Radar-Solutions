@@ -10,5 +10,5 @@ int main(void)
     printf("");
     scanf("%2s", character);
 
-    printf("You entered: %2s", character)
+    printf("You entered: %2s", character);
 }
