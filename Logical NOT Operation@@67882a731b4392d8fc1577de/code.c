@@ -5,7 +5,7 @@ int main(void)
     int first;
     scanf("%i", &first);
 
-    if (first < 0)
+    if (first <! 0)
     {
         printf("True\n");
     }
