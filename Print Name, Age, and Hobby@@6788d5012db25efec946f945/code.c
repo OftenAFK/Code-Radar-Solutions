@@ -8,7 +8,7 @@ int main(void)
     printf("");
     scanf("%19s %i %29s", name, &age, hobby);
 
-    printf("Name: %s\n Age: %i\n Hobby: %s\n", name, age, hobby);
+    printf("Name: %s\nAge: %i\nHobby: %s\n", name, age, hobby);
 
     return 0;
 // such bad design damn 
