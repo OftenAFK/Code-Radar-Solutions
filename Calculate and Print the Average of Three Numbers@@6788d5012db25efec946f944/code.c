@@ -4,7 +4,7 @@ float average(int a, int b, int c)
 {
     int sum= a + b + c;
     int counter= sum/3
-    return (float)counter;
+    return counter;
 }
 
 int main(void)
