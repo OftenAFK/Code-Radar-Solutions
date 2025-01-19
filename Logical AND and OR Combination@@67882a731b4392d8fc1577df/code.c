@@ -8,7 +8,7 @@ int main(void)
 
     if (first > 0 && second < 0 || first== 0 && second== 0)
     {
-        print("True\n");
+        printf("True\n");
     }
     else
     {
