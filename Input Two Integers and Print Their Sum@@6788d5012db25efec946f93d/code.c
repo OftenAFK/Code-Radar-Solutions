@@ -12,7 +12,8 @@ int main(void)
     printf("");
     scanf("%i %i", &first, &second);
 
-    printf("Sum: %i\n", first, second, sum(first, second));
+    int result= sum(first, second);
+    printf("Sum: %i\n", result)
 
     return 0;
 }
