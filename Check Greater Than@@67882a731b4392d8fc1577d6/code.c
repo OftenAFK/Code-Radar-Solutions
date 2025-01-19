@@ -6,13 +6,13 @@ int main(void)
     printf("");
     scanf("%i %i", &first, &second);
 
-    if (first > second);
+    if (first > second)
     {
         printf("True\n");
     }
     else
     {
-        printf("False");
+        printf("False\n");
     }
 
     return 0;
