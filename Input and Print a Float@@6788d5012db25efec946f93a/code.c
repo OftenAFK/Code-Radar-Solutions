@@ -8,7 +8,7 @@ int main(void)
 {
     float number;
     printf("");
-    scanf("%f", &number)
+    scanf("%f", &number);
 
     printf("You entered: %.2f\n", number);
 }
