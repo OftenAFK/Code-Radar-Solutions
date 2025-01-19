@@ -3,8 +3,8 @@
 float average(int a, int b, int c)
 {
     int sum= a + b + c;
-    float counter= (float) sum/3
-    return counter;
+    int counter= sum/3
+    return (float)counter;
 }
 
 int main(void)
