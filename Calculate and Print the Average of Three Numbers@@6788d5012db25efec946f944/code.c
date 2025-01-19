@@ -1,15 +1,15 @@
 #include <stdio.h>
 
-float average(float a, float b, float c)
+float average(int a, int b, int c)
 {
-    float sum= a + b + c;
-    float counter= sum/3;
+    int sum= a + b + c;
+    float counter= sum/3.0;
     return counter;
 }
 
 int main(void)
 {
-    float first, second, third;
+    int first, second, third;
     printf("");
     scanf("%f %f %f", &first, &second, &third);
 
