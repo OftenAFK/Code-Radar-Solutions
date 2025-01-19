@@ -6,7 +6,7 @@ int main(void)
     printf("");
     scanf("%i %i", &first, &second);
 
-    if (first >! 0 && second !> 0)
+    if (first >! 0 && second >! 0)
     {
         printf("True\n");
     }
