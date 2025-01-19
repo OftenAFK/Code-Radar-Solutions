@@ -1,19 +1,19 @@
 #include <stdio.h>
 
-int average(int a, int b, int c)
+float average(float a, float b, float c)
 {
-    int sum= a + b + c;
-    int counter= sum/3;
+    float sum= a + b + c;
+    float counter= sum/3;
     return counter;
 }
 
 int main(void)
 {
-    int first, second, third;
+    float first, second, third;
     printf("");
-    scanf("%i %i %i", &first, &second, &third);
+    scanf("%f %f %f", &first, &second, &third);
 
-    float result= (float)average(first, second, third);
+    float result= average(first, second, third);
     printf("Average: %.2f\n", result);
 
     return 0;
