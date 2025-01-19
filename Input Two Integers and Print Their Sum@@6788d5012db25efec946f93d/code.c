@@ -13,4 +13,6 @@ int main(void)
     scanf("%i %i", first, second);
 
     printf("%i\n", first, second, sum(first, second));
+
+    return 0;
 }
