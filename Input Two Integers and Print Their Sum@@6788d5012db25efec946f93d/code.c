@@ -13,7 +13,7 @@ int main(void)
     scanf("%i %i", &first, &second);
 
     int result= sum(first, second);
-    printf("Sum: %i\n", result)
+    printf("Sum: %i\n", result);
 
     return 0;
 }
