@@ -2,7 +2,7 @@
 
 int main(void)
 {   
-    char name[20], char hobby[30];
+    char name[20], hobby[30];
     int age;
 
     printf("");
