@@ -12,5 +12,5 @@ int main(void)
     printf("");
     scanf("%i %i", first, second);
 
-    printf("%i\n", sum(first, second));
+    printf("%i\n", first, second, sum(first, second));
 }
