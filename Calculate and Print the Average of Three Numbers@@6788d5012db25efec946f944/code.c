@@ -13,7 +13,7 @@ int main(void)
     printf("");
     scanf("%i %i %i", &first, &second, &third);
 
-    int result= average(first, second, third);
+    float result= (float)average(first, second, third);
     printf("Average: %i\n", result);
 
     return 0;
