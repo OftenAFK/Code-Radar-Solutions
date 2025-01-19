@@ -11,5 +11,5 @@ int main(void)
     printf("Name: %s\nAge: %i\nHobby: %s\n", name, age, hobby);
 
     return 0;
-// such bad design damn 
+// much better now
 }
