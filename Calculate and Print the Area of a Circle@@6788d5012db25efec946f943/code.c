@@ -1,8 +1,9 @@
 #include <stdio.h>
+#include <math.h>
 
 float area(float radius)
 {
-    float counter = (int)(3.1415926535 * radius * radius * 100) / 100.0;
+    float counter = M_PI * radius * radius;
     return counter;
 }
 
