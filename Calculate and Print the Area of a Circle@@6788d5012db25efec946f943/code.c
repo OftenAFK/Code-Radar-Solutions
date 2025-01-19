@@ -3,7 +3,7 @@
 
 float area(float radius)
 {
-    float counter = M_PI * radius * radius;
+    float counter = 3.14159265358979323846 * radius * radius;
     return counter;
 }
 
