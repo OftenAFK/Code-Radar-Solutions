@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-int sum(int first, int second)
+int sum(int a, int b)
 {
-    int counter= first + second;
+    int counter= a + b;
     return counter;
 }
 
