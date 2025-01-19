@@ -11,9 +11,9 @@ int main(void)
     printf("");
     scanf("%29s", hobby);
 
-    printf("Name: %s", name);
-    printf("Age: %i", age);
-    printf("Hobby: %s", hobby);
+    printf("Name: %s\n", name);
+    printf("Age: %i\n", age);
+    printf("Hobby: %s\n", hobby);
 
     return 0;
 // such bad design damn 
