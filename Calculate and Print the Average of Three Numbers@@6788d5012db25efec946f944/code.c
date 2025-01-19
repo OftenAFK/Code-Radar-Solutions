@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-float average(int a, int b, int c)
+int average(int a, int b, int c)
 {
     int sum= a + b + c;
     int counter= sum/3
@@ -13,7 +13,7 @@ int main(void)
     printf("");
     scanf("%i %i %i", &first, %second, &third);
 
-    float result= average(first, second, third)
+    int result= average(first, second, third)
     printf("Average: %.2f\n", result)
 
     return 0;
