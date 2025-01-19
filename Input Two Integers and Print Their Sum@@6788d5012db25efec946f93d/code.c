@@ -8,10 +8,9 @@ int sum(int first, int second)
 
 int main(void)
 {
-    int first;
-    int second;
+    int first, second;
     printf("");
-    scanf("%i %i", first, second);
+    scanf("%i %i", &first, &second);
 
     printf("Sum: %i\n", first, second, sum(first, second));
 
