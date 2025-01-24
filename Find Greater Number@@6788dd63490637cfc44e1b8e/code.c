@@ -3,7 +3,7 @@
 int main(void)
 {
     int first, second;
-    printf("Enter numbers: ");
+    printf("");
     scanf("%i %i", &first, &second);
 
     if (first > second)
