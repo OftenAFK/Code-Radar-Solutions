@@ -17,7 +17,7 @@ int main(void)
 
     if (leap_year(number)== 0)
     {
-        printf("Leap  Year\n");
+        printf("Leap Year\n");
     }
     else
     {
