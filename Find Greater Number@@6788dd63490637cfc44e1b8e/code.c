@@ -14,4 +14,6 @@ int main(void)
     {
         printf("%i", second);
     }
+
+    return 0;
 }
