@@ -21,6 +21,6 @@ int main(void)
     }
     else
     {
-        printf("False");
+        printf("Odd\n");
     }
 }
