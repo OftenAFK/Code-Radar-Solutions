@@ -6,7 +6,7 @@ int leap_year(int year)
     {
         return 0;
     }
-    retun 1;
+    return 1;
 }
 
 int main(void)
@@ -23,4 +23,6 @@ int main(void)
     {
         printf("Not a Leap Year\n");
     }
+
+    return 0;
 }
