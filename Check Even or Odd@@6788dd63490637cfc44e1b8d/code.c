@@ -17,10 +17,10 @@ int main(void)
 
     if (even(number)== 0)
     {
-        printf("Even\n")
+        printf("Even\n");
     }
     else
     {
-        printf("False")
+        printf("False");
     }
 }
