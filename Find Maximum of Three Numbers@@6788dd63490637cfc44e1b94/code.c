@@ -7,7 +7,7 @@ int main(void)
 
     while(scanf("%i", &inputs)== 0)
     {
-        arr[n++]= inputs;
+        numbers[n++]= inputs;
     }
 
     int first;
