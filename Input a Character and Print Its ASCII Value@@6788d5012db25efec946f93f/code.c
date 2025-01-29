@@ -7,7 +7,7 @@ int main(void)
     scanf("%s", &first);
 
     first= (int) first;
-    printf("ASCII value: %i\n", first);
+    printf("ASCII Value: %i\n", first);
 
     return 0;
 }
