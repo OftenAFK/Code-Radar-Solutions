@@ -8,7 +8,7 @@ int main(void)
 
     character= (int) character;
 
-    if (character >= 65 && character <= 97)
+    if (character > 65 && character <= 97)
     {
         printf("Uppercase\n");
     }
