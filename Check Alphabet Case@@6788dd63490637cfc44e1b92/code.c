@@ -12,9 +12,13 @@ int main(void)
     {
         printf("Uppercase\n");
     }
-    else
+    else if(character >= 'a' && character <= 'z')
     {
         printf("Lowercase\n");
+    }
+    else
+    {
+        printf("Nothing\n");
     }
 
     return 0;
