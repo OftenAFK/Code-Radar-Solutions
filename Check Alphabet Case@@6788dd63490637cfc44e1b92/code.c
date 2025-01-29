@@ -6,9 +6,9 @@ int main(void)
     printf("");
     scanf("%c", &character);
 
-    character= (int) character;
+    // character= (int) character;
 
-    if (character >= 65 && character < 97)
+    if (character >='A' && character <= 'Z')
     {
         printf("Uppercase\n");
     }
