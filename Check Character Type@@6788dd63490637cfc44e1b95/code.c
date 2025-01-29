@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-bool vowel(char input)
+int vowel(char input)
 {
     return (strchr("aeiouAEIOU", input)!= NULL);
 }
