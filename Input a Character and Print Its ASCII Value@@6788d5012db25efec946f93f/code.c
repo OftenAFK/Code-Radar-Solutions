@@ -6,6 +6,10 @@ int main(void)
     printf("");
     scanf("%s", &first);
 
+    if (first== 'a');
+    {
+    printf(None);
+    }
     first= (int) first;
     printf("ASCII Value: %i\n", first);
 
