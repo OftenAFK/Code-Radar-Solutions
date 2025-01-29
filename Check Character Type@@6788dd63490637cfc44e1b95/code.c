@@ -3,7 +3,7 @@
 
 bool vowel(char input)
 {
-    return (strchr("aeiouAEIOU", input)!= NULL)
+    return (strchr("aeiouAEIOU", input)!= NULL);
 }
 
 int main(void)
