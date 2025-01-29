@@ -18,11 +18,11 @@ int main(void)
 
     if (vowel(alpha))
     {
-        printf("Vowel\n")
+        printf("Vowel\n");
     }
     else
     {
-        printf("Consonent\n")
+        printf("Consonent\n");
     }
 
     return 0;
