@@ -2,15 +2,11 @@
 
 int main(void)
 {
-    int arr[100];
-    int n= 0, num;
+    int first, second, third;
+    printf("");
+    scanf("%i %i %i", &first, &second, &third);
 
-    while(scanf("%i", &num)== 0)
-    {
-        arr[n++]= num;
-    }
-
-    if (arr[0] + arr[1] > arr[2])
+    if (first + second > third && first + third > second && second + third > first)
     {
         printf("Valid\n");
     }
