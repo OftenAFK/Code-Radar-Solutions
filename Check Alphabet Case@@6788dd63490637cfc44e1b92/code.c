@@ -4,7 +4,7 @@ int main(void)
 {
     char character;
     printf("");
-    scanf("%s", &character);
+    scanf("%c", &character);
 
     character= (int) character;
 
