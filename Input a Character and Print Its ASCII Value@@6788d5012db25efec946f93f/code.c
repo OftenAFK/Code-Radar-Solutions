@@ -4,7 +4,7 @@ int main(void)
 {
     char first;
     printf("");
-    scanf("%s", &first);
+    scanf("%c", &first);
 
     first= (int) first;
     printf("ASCII Value: %i\n", first);
