@@ -8,7 +8,7 @@ int main(void)
 
     if (first== 'a');
     {
-    printf(None);
+        printf("");
     }
     first= (int) first;
     printf("ASCII Value: %i\n", first);
