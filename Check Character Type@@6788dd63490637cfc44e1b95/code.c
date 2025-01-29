@@ -3,7 +3,7 @@
 
 bool vowel(char input)
 {
-    if (strchr("aeiouAEIOU", input)== 0)
+    if (strchr("aeiouAEIOU", input)!= NULL )
     {
         return 0;
     }
