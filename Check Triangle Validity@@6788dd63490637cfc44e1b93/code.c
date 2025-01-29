@@ -12,11 +12,11 @@ int main(void)
 
     if (arr[0] + arr[1] > arr[2])
     {
-        printf("Valid\n")
+        printf("Valid\n");
     }
     else
     {
-        printf("Invalid\n")
+        printf("Invalid\n");
     }
 
     return 0;
