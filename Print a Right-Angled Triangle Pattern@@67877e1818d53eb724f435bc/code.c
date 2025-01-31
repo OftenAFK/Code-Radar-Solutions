@@ -8,7 +8,7 @@ int main(void)
 
     for (int i= 0; i< height+1; i++)
     {
-        for (int j= 1; j< height+1; j++)
+        for (int j= 1; j< i; j++)
         {
             printf("* ");
         }
