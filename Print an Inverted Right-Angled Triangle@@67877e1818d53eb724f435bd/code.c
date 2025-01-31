@@ -7,8 +7,11 @@ int main(void)
     scanf("%i", &height);
 
     for (int i= height; i>0; i--)
-    {
-        printf("*\n");
+    {   
+        for (int j= i; j>0; j--)
+        {
+            printf("*\n");
+        }
     }
 
     return 0;
