@@ -6,9 +6,9 @@ int main(void)
     printf("");
     scanf("%f", &first);
 
-    first= (double) first;
+    first= (double) first * 10000/ 10000.0;
 
-    printf("You entered: %.4f", first);
+    printf("You entered: %f", first);
 
     return 0;
 }
