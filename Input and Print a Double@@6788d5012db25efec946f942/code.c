@@ -4,11 +4,11 @@ int main(void)
 {
     float first;
     printf("");
-    scanf("%c", &first);
+    scanf("%f", &first);
 
     first= (double) first;
 
-    printf("%.4f", first);
+    printf("You entered: %.4f", first);
 
     return 0;
 }
