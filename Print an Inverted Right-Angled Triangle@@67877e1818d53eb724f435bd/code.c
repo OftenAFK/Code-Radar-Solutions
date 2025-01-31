@@ -5,7 +5,7 @@ int main(void)
     int height;
     for (int i= height; i>0; i--)
     {
-        prinf("*\n")
+        prinf("*\n");
     }
 
     return 0;
