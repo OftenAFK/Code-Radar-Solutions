@@ -18,7 +18,7 @@ int main(void)
     }
     else
     {
-        printf("Consonent\n");
+        printf("Consonant\n");
     }
 
     return 0;
