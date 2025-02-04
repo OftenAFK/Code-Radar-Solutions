@@ -5,7 +5,7 @@ const char* weekday(int days)
     const char* week[7]= {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
     if (days <= 0 && days >= 8)
     {
-        return "Invalid Input";
+        return "Invalid";
     }
     return week[days-1];
 }
