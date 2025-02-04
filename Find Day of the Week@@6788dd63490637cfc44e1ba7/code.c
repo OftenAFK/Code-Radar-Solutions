@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-char weekday(int days)
+const char* weekday(int days)
 {
-    week[7]= {Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday};
+    const char* week[7]= {Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday};
     result= week[days-1];
 
     return result;
