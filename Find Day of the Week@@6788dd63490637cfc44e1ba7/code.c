@@ -2,7 +2,7 @@
 
 int weekday(int days)
 {
-    week[7]= {Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday}
+    week[7]= {Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday};
     result= week[days];
 
     return result;
