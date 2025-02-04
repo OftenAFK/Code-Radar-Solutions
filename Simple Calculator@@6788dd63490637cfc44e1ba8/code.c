@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <string.h>
 
 int addition(int first, int second)
 {
@@ -32,15 +31,15 @@ int main(void)
     printf("");
     scanf("%i %i %c", &first, &second, &special_character);
 
-    if (strcmp(special_character, '+')== 0)
+    if (special_character== '+')
     {
         printf("%i", addition(first, second));
     }
-    else if (strcmp(special_character, '-')== 0)
+    else if (special_character== '-')
     {
         printf("%i", subtraction(first, second));
     }
-    else if (strcmp(special_character, '*')== 0)
+    else if (special_character== '*')
     {
         printf("%i", multiplication(first, second));
     }
