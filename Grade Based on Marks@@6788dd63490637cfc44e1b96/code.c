@@ -2,15 +2,15 @@
 
 int markings(int marks)
 {
-    if (marks <= 90)
+    if (marks >= 90)
     {
         printf("A\n");
     }
-    else if (marks <= 80)
+    else if (marks >= 80)
     {
         printf("B\n");
     }
-    else if (marks <= 70)
+    else if (marks >= 70)
     {
         printf("C\n");
     }
