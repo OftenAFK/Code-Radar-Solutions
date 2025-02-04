@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void grading(char grade)
+const char* grading(char grade)
 {
     if (grade== 'A')
     {
@@ -34,5 +34,5 @@ int main(void)
     printf("");
     scanf("%c", &grade);
 
-    printf("%s", grading(grade));
+    grading(grade);
 }
