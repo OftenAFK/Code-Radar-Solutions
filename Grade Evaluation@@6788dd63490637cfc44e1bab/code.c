@@ -4,7 +4,7 @@ const char* grading(char grade)
 {
     if (grade== 'A')
     {
-        printf("Excellent\n");
+        printf("Excellent");
     }
     else if (grade== 'B')
     {
