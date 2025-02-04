@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-char traffic_lights(colour)
+const char* traffic_lights(char colour)
 {
     if (colour== 'R')
     {
