@@ -24,7 +24,7 @@ const char* grading(char grade)
     }
     else
     {
-        printf("Invalid grade")
+        printf("Invalid grade");
     }
 }
 
