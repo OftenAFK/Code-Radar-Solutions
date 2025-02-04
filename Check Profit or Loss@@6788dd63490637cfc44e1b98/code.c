@@ -11,7 +11,11 @@ int gambling(int first, int second)
 
 int main(void)
 {   
-    if (gambling)
+    int first, second;
+    printf("");
+    scanf("%i %i", &first, &second);
+
+    if (gambling(first, second))
     {
         printf("Loss\n");
     }
