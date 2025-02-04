@@ -12,7 +12,13 @@ int main(void)
     printf("");
     scanf("%i", &month_number);
 
-    printf("%i", month(month_number));
-
+    if (month_number >= 1 && month_number <= 12)
+    {
+        printf("%i\n", month(month_number));
+    }
+    else
+    {
+        printf("Invalid month\n");
+    }
     return 0;
 }
