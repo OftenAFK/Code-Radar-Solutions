@@ -19,11 +19,7 @@ int multiplication(int first, int second)
 }
 
 int division(int first, int second)
-{   if (second== 0)
-    {
-        printf("error");
-        return NULL;
-    }
+{
     int counter= first / second;
     return counter;
 }
@@ -48,7 +44,12 @@ int main(void)
         printf("%i", multiplication(first, second));
     }
     else
-    {
+    {   
+        if (second== 0)
+        {
+            printf("error");
+            return 1;
+        }
         printf("%i", division(first, second));
     }
 
