@@ -14,9 +14,13 @@ int markings(int marks)
     {
         printf("C\n");
     }
-    else
+    else if (marks >= 60)
     {
         printf("D\n");
+    }
+    else
+    {
+        printf("F\n");
     }
 }
 
