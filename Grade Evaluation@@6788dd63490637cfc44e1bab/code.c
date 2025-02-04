@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-char grading(char grade)
+void grading(char grade)
 {
     if (grade== 'A')
     {
