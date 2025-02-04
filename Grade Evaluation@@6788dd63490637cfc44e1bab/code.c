@@ -4,11 +4,11 @@ const char* grading(char grade)
 {
     if (grade== 'A')
     {
-        printf("Excellent");
+        printf("Excellent\n");
     }
     else if (grade== 'B')
     {
-        printf("Good");
+        printf("Good\n");
     }
     else if (grade== 'C')
     {
@@ -20,11 +20,11 @@ const char* grading(char grade)
     }
     else if (grade== 'F')
     {
-        printf("Fail");
+        printf("Fail\n");
     }
     else
     {
-        printf("Invalid grade");
+        printf("Invalid grade\n");
     }
 }
 
