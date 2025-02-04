@@ -6,7 +6,7 @@ int gambling(int first, int second)
     {
         return 1;
     }
-    return 0;
+    else if (first = second)
 }
 
 int main(void)
@@ -15,7 +15,11 @@ int main(void)
     printf("");
     scanf("%i %i", &first, &second);
 
-    if (gambling(first, second))
+    if (first== second)
+    {
+        printf("No Profit No Loss")
+    }
+    else if (gambling(first, second))
     {
         printf("Loss\n");
     }
