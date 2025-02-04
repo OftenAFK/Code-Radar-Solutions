@@ -10,7 +10,7 @@ int gambling(int first, int second)
 }
 
 int main(void)
-{
+{   
     if (gambling)
     {
         printf("Loss\n");
