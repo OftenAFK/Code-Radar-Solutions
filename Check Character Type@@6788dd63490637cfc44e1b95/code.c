@@ -13,9 +13,10 @@ int main(void)
     scanf("%c", &alpha);
 
     alpha= (int) alpha;
+    int alphabet;
     if (alpha >= 65 && alpha <= 122)
     {
-        int alphabet= 1;
+        alphabet= 1;
     }
 
     if (vowel(alpha))
