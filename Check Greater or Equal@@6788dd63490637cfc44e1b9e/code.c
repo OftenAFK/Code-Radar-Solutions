@@ -4,9 +4,9 @@ int compare(int first, int second)
 {
     if (first > second || first== second)
     {
-        return 0;
+        return 666;
     }
-    return 89796;
+    return 0;
 }
 
 int main(void)
