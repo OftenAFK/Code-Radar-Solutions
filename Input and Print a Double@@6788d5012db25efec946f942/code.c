@@ -4,7 +4,7 @@ int main(void)
 {
     double first;
     printf("");
-    scanf("%f", &first);
+    scanf("%lf", &first);
 
     printf("You entered: %.4f", first);
 
