@@ -12,7 +12,7 @@ const char* grading(char grade)
     }
     else if (grade== 'C')
     {
-        printf("Average");
+        printf("Average\n");
     }
     else if (grade== 'D')
     {
