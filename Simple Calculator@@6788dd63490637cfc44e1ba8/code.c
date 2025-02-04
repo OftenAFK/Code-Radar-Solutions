@@ -32,7 +32,7 @@ int main(void)
     printf("");
     scanf("%i %i %c", &first, &second, &special_character);
 
-    if (strcmp(special_character, "+")== 0)
+    if (strcmp(special_character, '+')== 0)
     {
         printf("%i", addition(first, second));
     }
