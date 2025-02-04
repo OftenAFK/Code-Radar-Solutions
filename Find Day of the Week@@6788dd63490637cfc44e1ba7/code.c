@@ -6,6 +6,7 @@ const char* weekday(int days)
     if (days <= 0 && days >= 8)
     {
         return "Invalid";
+        return 1;
     }
     return week[days-1];
 }
