@@ -2,7 +2,7 @@
 
 int eligibility(int age, int citizenship)
 {
-    if (age >= 18 && citizenship== 0)
+    if (age >= 18 && citizenship== 1)
     {
         return 1;
     }
