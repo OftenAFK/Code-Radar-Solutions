@@ -17,7 +17,7 @@ int main(void)
 
     if (even_odd(number))
     {
-        prinf("Even\n");
+        printf("Even\n");
     }
     else
     {
