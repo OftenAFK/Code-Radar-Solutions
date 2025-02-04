@@ -16,7 +16,7 @@ const char* grading(char grade)
     }
     else if (grade== 'D')
     {
-        printf("Below Average");
+        printf("Below Average\n");
     }
     else if (grade== 'F')
     {
