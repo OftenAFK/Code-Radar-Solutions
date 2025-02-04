@@ -21,7 +21,8 @@ int multiplication(int first, int second)
 int division(int first, int second)
 {   if (second== 0)
     {
-        return "error";
+        printf("error\n");
+        return 0;
     }
     int counter= first / second;
     return counter;
