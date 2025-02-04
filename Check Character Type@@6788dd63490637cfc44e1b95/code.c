@@ -23,7 +23,7 @@ int main(void)
     {
         printf("Vowel\n");
     }
-    if (alphabet && vowel(alpha)== 0)
+    else if (alphabet && vowel(alpha)== 0)
     {
         printf("Consonant\n");
     }
