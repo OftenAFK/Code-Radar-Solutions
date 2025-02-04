@@ -22,7 +22,7 @@ int main(void)
     printf("");
     scanf("%c", &colour);
 
-    printf("%c", traffic_lights(colour));
+    traffic_lights(colour);
 
     return 0;
 }
