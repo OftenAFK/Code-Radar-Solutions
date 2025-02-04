@@ -6,7 +6,7 @@ int gambling(int first, int second)
     {
         return 1;
     }
-    else if (first = second)
+    return 0;
 }
 
 int main(void)
