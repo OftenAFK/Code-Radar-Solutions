@@ -17,7 +17,7 @@ int main(void)
 
     if (first== second)
     {
-        printf("No Profit No Loss")
+        printf("No Profit No Loss");
     }
     else if (gambling(first, second))
     {
