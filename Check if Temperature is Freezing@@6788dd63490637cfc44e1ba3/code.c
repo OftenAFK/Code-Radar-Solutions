@@ -2,7 +2,7 @@
 
 int freeze(int temp)
 {
-    if (temp < 0)
+    if (temp <= 0)
     {
         return 1;
     }
@@ -21,7 +21,7 @@ int main(void)
     }
     else
     {
-        printf("Not Freezing\n");
+        printf("Above Freezing\n");
     }
 
     return 0;
