@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-triangle(int length, int breadth, int height)
+int triangle(int length, int breadth, int height)
 {
     if (length!= breadth && length!= height)
     {
