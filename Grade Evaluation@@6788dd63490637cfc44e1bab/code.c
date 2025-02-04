@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-const char* grading(char grade)
+char grading(char grade)
 {
     if (grade== 'A')
     {
