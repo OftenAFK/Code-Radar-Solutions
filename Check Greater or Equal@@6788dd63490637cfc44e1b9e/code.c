@@ -2,7 +2,7 @@
 
 int compare(int first, int second)
 {
-    if (first > second)
+    if (first > second && first== second)
     {
         return 7;
     }
