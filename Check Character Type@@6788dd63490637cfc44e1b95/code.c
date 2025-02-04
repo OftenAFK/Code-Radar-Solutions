@@ -41,7 +41,7 @@ int main(void)
     }
     else if (special_character(alpha))
     {
-        printf("Special Character\n")
+        printf("Special Character\n");
     }
     else
     {
