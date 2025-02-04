@@ -4,15 +4,15 @@ const char* traffic_lights(colour)
 {
     if (colour== 'R')
     {
-        return "Stop";
+        printf("Stop\n");
     }
     else if (colour== 'Y')
     {
-        return "Ready";
+        printf("Ready\n");
     }
     else
     {
-        return "Go";
+        printf("Go\n");
     }
 }
 
