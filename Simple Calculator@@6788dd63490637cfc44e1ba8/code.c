@@ -22,7 +22,7 @@ int division(int first, int second)
 {   if (second== 0)
     {
         printf("error");
-        return 0;
+        return NULL;
     }
     int counter= first / second;
     return counter;
