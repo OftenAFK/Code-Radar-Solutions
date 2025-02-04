@@ -3,7 +3,7 @@
 int weekday(int days)
 {
     week[7]= {Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday};
-    result= week[days];
+    result= week[days-1];
 
     return result;
 }
@@ -14,7 +14,7 @@ int main(void)
     printf("");
     scanf("%i", &number);
 
-    printf("%i", weekday(number));
+    printf("%s", weekday(number));
 
     return 0;
 }
