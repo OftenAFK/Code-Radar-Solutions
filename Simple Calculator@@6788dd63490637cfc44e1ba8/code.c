@@ -19,7 +19,10 @@ float multiplication(int first, int second)
 }
 
 float division(int first, int second)
-{
+{   if (second== 0)
+    {
+        return 0;
+    }
     int counter= first / second;
     return counter;
 }
