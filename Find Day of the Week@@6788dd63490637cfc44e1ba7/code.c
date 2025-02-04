@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int weekday(int days)
+char weekday(int days)
 {
     week[7]= {Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday};
     result= week[days-1];
