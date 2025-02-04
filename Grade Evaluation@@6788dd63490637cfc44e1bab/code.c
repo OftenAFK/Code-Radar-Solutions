@@ -31,6 +31,4 @@ int main(void)
     scanf("%c", &grade);
 
     printf("%c", grading(grade));
-
-    return 0;
 }
