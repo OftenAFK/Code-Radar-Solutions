@@ -8,11 +8,15 @@ const char* traffic_lights(char colour)
     }
     else if (colour== 'Y')
     {
-        printf("Ready\n");
+        printf("Slow Down\n");
+    }
+    else if (colour== 'G')
+    {
+        printf("Go\n");
     }
     else
     {
-        printf("Go\n");
+        printf("Invalid input\n");
     }
 }
 
