@@ -17,11 +17,11 @@ int main(void)
 
     if (multiple(first, second))
     {
-        printf("Yes\n")
+        printf("Yes\n");
     }
     else
     {
-        printf("No\n")
+        printf("No\n");
     }
 
     return 0;
