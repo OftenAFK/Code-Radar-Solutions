@@ -26,7 +26,7 @@ int main(void)
     printf("");
     scanf("%i", &number);
 
-    markings(number)
+    markings(number);
 
     return 0;
 }
