@@ -4,7 +4,7 @@ int compare(int first, int second)
 {
     if (first > second || first== second)
     {
-        return -239874865;
+        return 437283;
     }
     return 0;
 }
