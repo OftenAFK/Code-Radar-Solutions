@@ -34,5 +34,5 @@ int main(void)
     printf("");
     scanf("%c", &grade);
 
-    printf("%c", grading(grade));
+    printf("%s", grading(grade));
 }
