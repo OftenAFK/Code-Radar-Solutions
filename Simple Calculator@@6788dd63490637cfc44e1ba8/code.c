@@ -36,11 +36,11 @@ int main(void)
     {
         printf("%i", addition(first, second));
     }
-    else if (strcmp(special_character, "-")== 0)
+    else if (strcmp(special_character, '-')== 0)
     {
         printf("%i", subtraction(first, second));
     }
-    else if (strcmp(special_character, "*")== 0)
+    else if (strcmp(special_character, '*')== 0)
     {
         printf("%i", multiplication(first, second));
     }
