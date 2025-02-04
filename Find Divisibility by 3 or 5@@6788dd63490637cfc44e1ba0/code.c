@@ -8,12 +8,13 @@ int main(void)
 
     if (first % 5== 0)
     {
-        printf("Divisible by 5\n");
-
         if (first % 3== 0)
         {
             printf("Divisible by Both\n");
+            return 1;
         }
+
+        printf("Divisible by 5\n");
     }
 
     else if (first % 3== 0)
