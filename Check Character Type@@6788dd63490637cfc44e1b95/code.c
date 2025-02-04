@@ -12,11 +12,17 @@ int main(void)
     printf("");
     scanf("%c", &alpha);
 
+    alpha= (int) alpha;
+    if (alpha >= 65 && alpha <= 122)
+    {
+        int alphabet= 1;
+    }
+
     if (vowel(alpha))
     {
         printf("Vowel\n");
     }
-    else
+    if (alphabet && !vowel(alpha))
     {
         printf("Consonant\n");
     }
