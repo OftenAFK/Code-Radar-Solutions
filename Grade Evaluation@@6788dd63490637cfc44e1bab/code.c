@@ -8,19 +8,23 @@ const char* grading(char grade)
     }
     else if (grade== 'B')
     {
-        printf("Good\n");
+        printf("Good");
     }
     else if (grade== 'C')
     {
-        printf("Average\n");
+        printf("Average");
     }
     else if (grade== 'D')
     {
-        printf("Below Average\n");
+        printf("Below Average");
+    }
+    else if (grade== 'F')
+    {
+        printf("Fail");
     }
     else
     {
-        printf("Fail\n");
+        printf("Invalid grade")
     }
 }
 
