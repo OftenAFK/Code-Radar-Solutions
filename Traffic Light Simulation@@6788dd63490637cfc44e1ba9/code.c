@@ -12,7 +12,7 @@ const char* traffic_lights(colour)
     }
     else
     {
-        return "Go"
+        return "Go";
     }
 }
 
