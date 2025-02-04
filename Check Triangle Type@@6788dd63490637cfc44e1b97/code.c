@@ -21,7 +21,7 @@ int main(void)
     }
     else if (triangle(length, breadth, height))
     {
-        printf("Scelene\n");
+        printf("Scalene\n");
     }
     else
     {
