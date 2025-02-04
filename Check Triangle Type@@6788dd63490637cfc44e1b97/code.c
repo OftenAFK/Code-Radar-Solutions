@@ -19,7 +19,7 @@ int main(void)
     {
         printf("Equilateral\n");
     }
-    else if (triangle)
+    else if (triangle(length, breadth, height))
     {
         printf("Scelene\n");
     }
