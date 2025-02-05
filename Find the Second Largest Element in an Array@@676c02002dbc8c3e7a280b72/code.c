@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int greatest(int arr[], length)
+int greatest(int arr[], int length)
 {
     int first= arr[0], second= arr[0];
 
