@@ -5,7 +5,7 @@ int even(int arr[], int length)
     int counter= 0;
     for (int i= 0; i< length; i++)
     {
-        if (i % 2== 0)
+        if (arr[i] % 2== 0)
         {
             counter++;
         }
@@ -18,7 +18,7 @@ int odd(int arr[], int length)
     int counter= 0;
     for (int i= 0; i< length; i++)
     {
-        if (i % 2 != 0)
+        if (arr[i] % 2 != 0)
         {
             counter++;
         }
