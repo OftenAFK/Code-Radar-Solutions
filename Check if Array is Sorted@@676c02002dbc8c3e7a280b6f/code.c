@@ -21,7 +21,7 @@ int main(void)
     int arr[length];
     for (int i= 0; i< length; i++)
     {
-        scanf("%i", &arr[i])
+        scanf("%i", &arr[i]);
     }
 
     if (sorted(arr[length]))
