@@ -28,7 +28,7 @@ int main(void)
     int arr[limit];
     for (int i= 0; i< limit; i++)
     {
-        scanf("%i", &arr[i])
+        scanf("%i", &arr[i]);
     }
 
     printf("%i", greatest(arr, limit));
