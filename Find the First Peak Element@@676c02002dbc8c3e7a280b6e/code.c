@@ -4,15 +4,12 @@ int peak(int arr[], int length)
 {
     for (int i= 0; i< length - 1; i++)
     {
-        if (arr[i] >= arr[i+1])
+        if (arr[i -1] < arr[i] && arr[i] > arr[i+1])
         {
-            continue;
-        }
-        else
-        {
-            return arr[i+1];
+            return arr[i];
         }
     }
+    return arr[length - 1];
 }
 
 int main(void)
