@@ -25,7 +25,6 @@ int main(void)
     for(int i= 0; i< length; i++)
     {
         scanf("%i", &arr[i]);
-        printf("\n");
     }
 
     printf("%i", peak(arr, length));
