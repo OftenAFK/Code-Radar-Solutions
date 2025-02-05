@@ -24,7 +24,7 @@ int main(void)
         scanf("%i", &arr[i]);
     }
 
-    if (sorted(arr[length]))
+    if (sorted(arr, length))
     {
         printf("Sorted\n");
     }
