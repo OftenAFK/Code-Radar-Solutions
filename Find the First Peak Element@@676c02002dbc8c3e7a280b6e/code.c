@@ -6,11 +6,11 @@ int peak(int arr[], length)
     {
         if (arr[i] >= arr[i+1])
         {
-            continue
+            continue;
         }
         else
         {
-            return arr[i+1]
+            return arr[i+1];
         }
     }
 }
