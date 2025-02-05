@@ -15,10 +15,6 @@ int greatest(int arr[], int length)
         {
             second= arr[i];
         }
-        else
-        {
-            return -1;
-        }
     }
     return second;
 }
