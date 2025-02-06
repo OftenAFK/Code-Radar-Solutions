@@ -17,7 +17,7 @@ int spaces(char arr[])
 int main(void)
 {
     char string[100];
-    scanf("%99s[^\n]", string);
+    scanf("%99s", string);
 
     printf("%i\n", spaces(string));
 
