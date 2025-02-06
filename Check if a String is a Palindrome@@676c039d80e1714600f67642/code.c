@@ -8,6 +8,7 @@ int palindrome(char word[])
     {
         length++;
     }
+
     for (int i= 0; word[i]!= '\0', i++)
     {
         temp[i]= word[length- i];
@@ -27,7 +28,7 @@ int main(void)
     char string[20];
     scanf("%19s", string);
 
-    if (palindrome(string, ))
+    if (palindrome(string))
     {
         printf("Yes\n");
     }
