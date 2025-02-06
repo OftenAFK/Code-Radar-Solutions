@@ -2,7 +2,7 @@
 
 int greatest(int arr[], int length)
 {
-    int first= arr[0], second= arr[0];
+    int first= arr[0], second= -1;
     int all_same= 1;
 
     if (length <= 1)
@@ -21,7 +21,7 @@ int greatest(int arr[], int length)
             second= first;
             first= arr[i];
         }
-        else if (arr[i] <= first && arr[i] >= second)
+        else if (arr[i] < first && (second== -1 || arr[i] > second))
         {
             second= arr[i];
         }
