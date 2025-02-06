@@ -12,6 +12,10 @@ int greatest(int arr[], int length)
 
     for (int i= 0; i< length; i++)
     {
+        if (arr[i] != first)
+        {
+            all_same= 0;
+        }
         if (arr[i] > first)
         {   
             second= first;
@@ -20,10 +24,6 @@ int greatest(int arr[], int length)
         else if (arr[i] < first && arr[i] > second)
         {
             second= arr[i];
-        }
-        if (arr[i] != first)
-        {
-            all_same= 0;
         }
     }
     if(all_same== 1)
