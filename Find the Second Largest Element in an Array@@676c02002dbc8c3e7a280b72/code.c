@@ -2,8 +2,10 @@
 
 int greatest(int arr[], int length)
 {
-    int first= arr[0], second= arr[0];
-    if (length== 1)
+    int first= arr[0], second= -1;
+    int all_same= 1;
+
+    if (length <= 1)
     {
         return -1;
     }
@@ -19,6 +21,14 @@ int greatest(int arr[], int length)
         {
             second= arr[i];
         }
+        if (arr[i] != first)
+        {
+            all_same= 0;
+        }
+    }
+    if(all_same== 1)
+    {
+        return -1;
     }
     return second;
 }
