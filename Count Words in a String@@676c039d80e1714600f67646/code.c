@@ -2,7 +2,8 @@
 
 int words(char arr[])
 {
-    int word= 0, space= 0;
+    int word= 0;
+    int space= 0;
     
     for (int i= 0; arr[i]!= '\0'; i++)
     {
@@ -11,7 +12,7 @@ int words(char arr[])
             word++;
             space= 1;
         }
-        else if (arr[i]= ' ')
+        else if (arr[i]== ' ')
         {
             space= 0;
         }
