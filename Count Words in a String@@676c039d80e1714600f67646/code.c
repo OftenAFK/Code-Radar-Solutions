@@ -6,7 +6,7 @@ char spaces(char arr[])
     int spaces= 1;
     for(int i= 0; arr[i]!= '\0'; i++)
     {
-        if (strcmp(' ', arr[i])== 0)
+        if (strcmp(" ", arr[i])== 0)
         {
             spaces++;
         }
