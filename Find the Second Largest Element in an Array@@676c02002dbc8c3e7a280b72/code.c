@@ -3,6 +3,10 @@
 int greatest(int arr[], int length)
 {
     int first= arr[0], second= arr[0];
+    if (length== 1)
+    {
+        return -1;
+    }
 
     for (int i= 0; i< length; i++)
     {
