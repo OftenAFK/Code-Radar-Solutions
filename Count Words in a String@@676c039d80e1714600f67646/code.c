@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-char spaces(char arr[])
+int spaces(char arr[])
 {
     int spaces= 1;
     for(int i= 0; arr[i]!= '\0'; i++)
@@ -19,7 +19,7 @@ int main(void)
     char string[100];
     scanf("%99s", string);
 
-    printf("%s", spaces(string));
+    printf("%i", spaces(string));
 
     return 0;
 }
