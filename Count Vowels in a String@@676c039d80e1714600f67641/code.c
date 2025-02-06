@@ -1,12 +1,15 @@
 #include <stdio.h>
 #include <string.h>
 
-int vowels(char word[])
+int vowels(char word[], length)
 {   
     int counter= 0;
-    while (strchr("AEIOUaeiou", word)!= 0)
+    for (int i= 0; i< length; i++)
     {
-        counter++
+        if (strchr("AEIOUaeiou", word[i])!= 0)
+        {
+            counter++;
+        }
     }
     return counter;
 }
