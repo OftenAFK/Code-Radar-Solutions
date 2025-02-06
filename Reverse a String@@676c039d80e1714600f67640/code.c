@@ -1,11 +1,13 @@
 #include <stdio.h>
 
-int rev(char arr[], int length)
+char* rev(char arr[], int length)
 {   
+    char const* temp[length];
     for (int i= 0; i< length- 1; i++)
     {
-        arr[i]= arr[length- 1];
+        temp[i]= arr[length-1];
     }
+    return temp;
 }
 
 int main(void)
