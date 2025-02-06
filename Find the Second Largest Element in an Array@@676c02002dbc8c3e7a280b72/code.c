@@ -21,7 +21,7 @@ int greatest(int arr[], int length)
             second= first;
             first= arr[i];
         }
-        else if (arr[i] < first && arr[i] >= second)
+        else if (arr[i] <= first && arr[i] >= second)
         {
             second= arr[i];
         }
