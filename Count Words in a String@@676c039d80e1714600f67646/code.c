@@ -17,7 +17,7 @@ char spaces(char arr[])
 int main(void)
 {
     char string[100];
-    scanf("%29s", string);
+    scanf("%99s", string);
 
     printf("%s", spaces(string));
 
