@@ -4,14 +4,14 @@ int palindrome(char word[])
 {
     char temp[20];
     int length= 0;
-    for (int i= 0; word[i]!= '\0', i++)
+    for (int i= 0; word[i]!= '\0'; i++)
     {
         length++;
     }
 
     for (int i= 0; word[i]!= '\0', i++)
     {
-        temp[i]= word[length- i];
+        temp[i]= word[length- i- 1];
     }
     for (int i= 0; temp[i]!= '\0', i++)
     {
