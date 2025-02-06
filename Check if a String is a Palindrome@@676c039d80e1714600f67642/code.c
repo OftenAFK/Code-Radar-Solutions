@@ -13,7 +13,7 @@ int palindrome(char word[])
     {
         temp[i]= word[length- i- 1];
     }
-    temp[length]= '\0';
+    // temp[length]= '\0';
 
     for (int i= 0; temp[i]!= '\0'; i++)
     {
