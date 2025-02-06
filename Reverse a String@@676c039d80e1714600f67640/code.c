@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-char rev(char arr[])
+char* rev(char arr[])
 {   
     static char temp[50];
     int count= 0;
