@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int spaces(char arr[])
+int words(char arr[])
 {
     int word= 1;
     for(int i= 0; arr[i+1]!= '\0'; i++)
@@ -10,7 +10,7 @@ int spaces(char arr[])
             word++;
         }
     }
-    return spaces;
+    return word;
 }
 
 int main(void)
@@ -18,7 +18,7 @@ int main(void)
     char string[100];
     scanf("%99[^\n]", string);
 
-    printf("%i\n", spaces(string));
+    printf("%i\n", words(string));
 
     return 0;
 }
