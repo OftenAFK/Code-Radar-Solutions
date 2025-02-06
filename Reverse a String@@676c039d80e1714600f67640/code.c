@@ -1,21 +1,26 @@
 #include <stdio.h>
 
-char* rev(char arr[], int length)
+char rev(int arr[])
 {   
-    char const* temp[length];
-    for (int i= 0; i< length- 1; i++)
+    char temp[50];
+    int count= 0;
+    for (int i= 0; arr[i]!= '\0'; i++)
     {
-        temp[i]= arr[length-1];
+        count++
     }
-    return temp;
+    for (int i= 0; arr[i]!= '\0'; i++)
+    {
+        temp[i]= arr[count- i- 1];
+    }
+    return temp
 }
 
 int main(void)
 {
-    char string[20];
-    scanf("%19s", string);
+    char string[50];
+    scanf("%49[^\n]", string);
 
-    printf("%s", rev(string, 20));
+    printf("%s", rev(string));
 
     return 0;
 }
