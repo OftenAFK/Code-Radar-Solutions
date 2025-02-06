@@ -4,9 +4,9 @@
 int vowels(char word[])
 {   
     int counter= 0;
-    for (int i= 0; i!= "\0"; i++)
+    for (int i= 0; i!= '\0'; i++)
     {
-        if (strchr("AEIOUaeiou", word[i])!= NULL)
+        if (strchr("AEIOUaeiou", word[i])!= 0)
         {
             counter++;
         }
