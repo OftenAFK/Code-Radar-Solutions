@@ -9,11 +9,13 @@ int palindrome(char word[])
         length++;
     }
 
-    for (int i= 0; word[i]!= '\0', i++)
+    for (int i= 0; word[i]!= '\0'; i++)
     {
         temp[i]= word[length- i- 1];
     }
-    for (int i= 0; temp[i]!= '\0', i++)
+    temp[length]= '\0';
+
+    for (int i= 0; temp[i]!= '\0'; i++)
     {
         if (temp[i]!= word[i])
         {
