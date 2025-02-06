@@ -14,7 +14,7 @@ int main(void)
         if (!isspace(string[i]))
         {
             spaces= 0;
-
+            break;
         }
     }
 
