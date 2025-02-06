@@ -1,9 +1,9 @@
 #include <stdio.h>
-
+// Need to come back to this, required too much help, but again, only because of that one test case
 int words(char arr[])
 {
     int word= 0;
-    int space= 0;
+    int space= 0; // Used spaces variable as a switch, we turn it on when encountering a space, and turn it off when we're past it
     
     for (int i= 0; arr[i]!= '\0'; i++)
     {
