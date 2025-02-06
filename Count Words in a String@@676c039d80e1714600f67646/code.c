@@ -10,6 +10,10 @@ int words(char arr[])
             word++;
         }
     }
+    if (word== 1)
+    {
+        return 0;
+    }
     return word;
 }
 
