@@ -6,7 +6,7 @@ int spaces(char arr[])
     int spaces= 1;
     for(int i= 0; arr[i]!= '\0'; i++)
     {
-        if (strcmp(" ", arr[i])== 0)
+        if (arr[i]== ' ')
         {
             spaces++;
         }
@@ -17,9 +17,9 @@ int spaces(char arr[])
 int main(void)
 {
     char string[100];
-    scanf("%99s", string);
+    scanf("%99s[^\n]", string);
 
-    printf("%i", spaces(string));
+    printf("%i\n", spaces(string));
 
     return 0;
 }
