@@ -4,7 +4,7 @@
 int main(void)
 {
     char string[20];
-    scanf("%19s", string);
+    scanf("%19[^\n]", string);
 
     int length= strlen(string);
     printf("%i\n", length);
