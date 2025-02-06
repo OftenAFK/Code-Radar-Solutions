@@ -6,8 +6,8 @@ int main(void)
     char string[20];
     scanf("%19s", string);
 
-    length= strlen(string);
-    printf("%s", length);
+    int length= strlen(string);
+    printf("%i\n", length);
 
     return 0;
 }
