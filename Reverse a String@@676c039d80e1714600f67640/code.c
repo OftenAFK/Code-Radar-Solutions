@@ -6,13 +6,13 @@ char rev(int arr[])
     int count= 0;
     for (int i= 0; arr[i]!= '\0'; i++)
     {
-        count++
+        count++;
     }
     for (int i= 0; arr[i]!= '\0'; i++)
     {
         temp[i]= arr[count- i- 1];
     }
-    return temp
+    return temp;
 }
 
 int main(void)
