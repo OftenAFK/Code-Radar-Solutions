@@ -6,8 +6,6 @@ int rev(char arr[], int length)
     {
         arr[i]= arr[length- 1];
     }
-
-    return arr[];
 }
 
 int main(void)
