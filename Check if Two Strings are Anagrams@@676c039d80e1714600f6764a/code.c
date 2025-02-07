@@ -23,10 +23,12 @@ int anagram(char arr1[], char arr2[])
     }
     for (int i= 0; i< length_of_first; i++)
     {   
+        int found= 0;
         for (int j= 0; j< length_of_second; j++)
         {
             if (arr1[i]== arr2[j])
             {   
+                found= 1;
                 arr[j]== '*';
                 temp2--;
                 break;
