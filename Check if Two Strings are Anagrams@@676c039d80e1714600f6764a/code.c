@@ -25,14 +25,22 @@ int anagram(char arr1[], char arr2[])
                 if (arr1[i]!= arr2[j])
                 {
                     return 0;
+                    break;
                 }
                 else
                 {
-                    continue;
+                    temp2--;
                 }
             }
         }
-        return 1;
+        if (temp2== 0)
+        {
+            return 1;
+        }
+    }
+    else if (length_of_first!= length_of_second)
+    {
+        return 0;
     }
 }
 
