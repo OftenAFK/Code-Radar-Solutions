@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-char anagram(char arr1[], char arr2[])
+char* anagram(char arr1[], char arr2[])
 {
     char temp[50];
     int length= 0;
