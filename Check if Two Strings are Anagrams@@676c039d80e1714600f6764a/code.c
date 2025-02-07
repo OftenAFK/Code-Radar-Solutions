@@ -27,7 +27,7 @@ int anagram(char arr1[], char arr2[])
 int main(void)
 {
     char input_1[50], input_2[50];
-    scanf("%d\n %d", input_1, input_2);
+    scanf("%s\n %s", input_1, input_2);
 
     if (anagram(input_1, input_2))
     {
