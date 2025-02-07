@@ -35,11 +35,11 @@ int anagram(char arr1[], char arr2[])
             }
         }
     }
-    if (temp2== 0)
+    if (!found)
     {
-        return 1;
+        return 0;
     }
-    return 0;
+    return 1;
 }
 
 int main(void)
