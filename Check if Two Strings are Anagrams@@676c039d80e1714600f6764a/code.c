@@ -29,7 +29,7 @@ int anagram(char arr1[], char arr2[])
             if (arr1[i]== arr2[j])
             {   
                 found= 1;
-                arr[j]== '*';
+                arr[j]= '*';
                 temp2--;
                 break;
             }
