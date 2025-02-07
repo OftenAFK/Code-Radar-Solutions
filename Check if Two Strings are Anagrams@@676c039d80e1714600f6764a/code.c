@@ -3,27 +3,38 @@
 int anagram(char arr1[], char arr2[])
 {
     char temp[50];
-    int length= 0;
-    for (int i= 0; arr1[i]!= '\0'; i++)
-    {
-        length++;
-    }
+    int length_of_first= 0, length_of_second= 0;
 
     for (int i= 0; arr1[i]!= '\0'; i++)
     {
-        temp[i]= arr1[length- i- 1];
+        length_of_first++;
     }
 
-    temp[length]== '\0';
-
-    for (int i= 0; arr2[i]!= '\0'; i++)
+    for (int i=0; arr2[i]!= '\0'; i++)
     {
-        if (temp[i]!= arr2[i])
+        length_of_second++;
+    }
+
+    temp= length_of_first;
+    if (length_of_first== length_of_second)
+    {
+        for (int i= 0; i< length_of_first; i++)
         {
-            return 0;
+            for (int j= 0; j< length_of_second; j++)
+            {
+                if (arr1[i]== arr2[j])
+                {
+                    temp--;
+                }
+            }
+        }
+        
+        if (temp!= 0)
+        {
+            return 1;
         }
     }
-    return 1;
+    return 0;
 }
 
 int main(void)
