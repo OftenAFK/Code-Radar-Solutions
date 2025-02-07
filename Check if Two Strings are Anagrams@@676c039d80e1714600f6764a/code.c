@@ -33,6 +33,11 @@ int anagram(char arr1[], char arr2[])
             }
         }
         return 1;
+    }
+    else
+    {
+        return 0;
+    }
 }
 
 int main(void)
