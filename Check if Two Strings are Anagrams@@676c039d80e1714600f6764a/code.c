@@ -2,7 +2,7 @@
 
 char* anagram(char arr1[], char arr2[])
 {
-    char temp[50];
+    char* temp[50];
     int length= 0;
     for (int i= 0; arr[i]!= '\0'; i++)
     {
