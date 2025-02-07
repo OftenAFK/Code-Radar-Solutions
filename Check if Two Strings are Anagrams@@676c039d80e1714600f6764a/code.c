@@ -27,7 +27,7 @@ int anagram(char arr1[], char arr2[])
         {
             if (arr1[i]== arr2[j])
             {   
-                arr2[j]= '*';
+                arr2[j]= '-';
                 temp2--;
                 break;
             }
