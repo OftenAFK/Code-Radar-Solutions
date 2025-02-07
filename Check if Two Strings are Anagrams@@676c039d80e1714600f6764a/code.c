@@ -14,6 +14,8 @@ int anagram(char arr1[], char arr2[])
         temp[i]= arr1[length- i- 1];
     }
 
+    temp[length]== '\0';
+
     for (int i= 0; arr2[i]!= '\0'; i++)
     {
         if (temp[i]!= arr2[i])
