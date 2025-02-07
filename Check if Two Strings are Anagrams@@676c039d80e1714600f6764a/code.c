@@ -34,10 +34,6 @@ int anagram(char arr1[], char arr2[])
         }
         return 1;
     }
-    else if (length_of_first!= length_of_second)
-    {
-        return 0;
-    }
 }
 
 int main(void)
