@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-char reverse(char arr1[], char arr2[])
+void reverse(char arr1[], char arr2[])
 {
     char temp1[50], temp2[50];
     int length_of_arr1= 0, length_of_arr2= 0;
@@ -18,10 +18,13 @@ char reverse(char arr1[], char arr2[])
     {
         temp1[i]= arr1[length_of_arr1- i- 1];
     }
+    temp1[length_of_arr1]= '\0';
+
     for (int i= 0; arr2[i]!= '\0'; i++)
     {
         temp2[i]= arr2[length_of_arr2- i- 1];
     }
+    temp2[length_of_arr2]= '\0';
 
     printf("%s %s", temp1, temp2);
 }
