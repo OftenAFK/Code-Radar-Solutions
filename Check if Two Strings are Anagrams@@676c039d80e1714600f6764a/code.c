@@ -30,7 +30,7 @@ int anagram(char arr1[], char arr2[])
                 if (arr[i+1]== arr[i])
                 {
                     temp++;
-                    break
+                    break;
                 }
             }
         }
