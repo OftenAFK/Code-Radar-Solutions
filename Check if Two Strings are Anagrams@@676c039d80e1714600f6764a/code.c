@@ -16,30 +16,28 @@ int anagram(char arr1[], char arr2[])
     }
 
     int temp2= length_of_first;
-    if (length_of_first== length_of_second)
+
+    if (length_of_first != length_of_second)
     {
-        for (int i= 0; i< length_of_first; i++)
+        return 0;
+    }
+    for (int i= 0; i< length_of_first; i++)
+    {   
+        for (int j= 0; j< length_of_second; j++)
         {
-            for (int j= 0; j< length_of_second; j++)
-            {
-                if (arr1[i]== arr2[j] && arr2[i]!= arr2[i+1])
-                {
-                    temp2--;
-                    break;
-                }
-                if (arr[i+1]== arr[i])
-                {
-                    temp++;
-                    break;
-                }
+            if (arr1[i]== arr2[j])
+            {   
+                arr[j]== '*';
+                temp2--;
+                break;
             }
         }
-        if (temp!= 0)
-        {
-            return 0;
-        }
+    }
+    if (temp2== 0)
+    {
         return 1;
     }
+    return 0;
 }
 
 int main(void)
