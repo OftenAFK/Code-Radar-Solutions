@@ -32,10 +32,10 @@ int anagram(char arr1[], char arr2[])
                 break;
             }
         }
-        if (temp2!= 0)
-        {
-            return 0;
-        }
+    }
+    if (temp2!= 0)
+    {
+        return 0;
     }
     return 1;
 }
