@@ -34,10 +34,10 @@ int anagram(char arr1[], char arr2[])
                 break;
             }
         }
-    }
-    if (!found)
-    {
-        return 0;
+        if (!found)
+        {
+            return 0;
+        }
     }
     return 1;
 }
