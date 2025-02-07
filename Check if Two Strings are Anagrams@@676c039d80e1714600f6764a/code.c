@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-char* anagram(char arr1[], char arr2[])
+const char* anagram(char arr1[], char arr2[])
 {
-    char* temp[50];
+    static char* temp[50];
     int length= 0;
     for (int i= 0; arr[i]!= '\0'; i++)
     {
