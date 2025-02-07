@@ -9,12 +9,12 @@ int anagram(char arr1[], char arr2[])
         length++;
     }
 
-    for (int i= 0; arr[i]!= '\0'; i++)
+    for (int i= 0; arr1[i]!= '\0'; i++)
     {
         temp[i]= arr1[length- i- 1];
     }
 
-    for (int i= 0; arr[i]!= '\0'; i++)
+    for (int i= 0; arr2[i]!= '\0'; i++)
     {
         if (temp[i]!= arr2[i])
         {
