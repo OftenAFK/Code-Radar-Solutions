@@ -22,7 +22,7 @@ int anagram(char arr1[], char arr2[])
         {
             for (int j= 0; j< length_of_second; j++)
             {
-                if (arr1[i]== arr2[j] && arr[i]!= arr[i+1])
+                if (arr1[i]== arr2[j] && arr2[i]!= arr2[i+1])
                 {
                     temp2--;
                     break;
