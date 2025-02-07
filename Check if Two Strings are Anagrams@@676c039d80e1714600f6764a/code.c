@@ -15,7 +15,7 @@ int anagram(char arr1[], char arr2[])
         length_of_second++;
     }
 
-    int temp= length_of_first;
+    int temp2= length_of_first;
     if (length_of_first== length_of_second)
     {
         for (int i= 0; i< length_of_first; i++)
@@ -24,7 +24,7 @@ int anagram(char arr1[], char arr2[])
             {
                 if (arr1[i]== arr2[j])
                 {
-                    temp--;
+                    temp2--;
                 }
             }
         }
