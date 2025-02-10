@@ -1,29 +1,31 @@
 #include <stdio.h>
 
-int Prime_count(int arr[], int length)
-{   
-    int counter= 0;
-    int first= arr[0];
-    for (int i= 0; i< length; i++)
+int prime(int number)
+{
+    if (number < 2)
     {
-        if (arr[i]> first)
+        return 0;
+    }
+    for (int i= 0; i< number; i++)
+    {
+        if (number % i== 0)
         {
-            first= arr[i];
+            return 0;
         }
     }
+    return 1;
+}
 
+int counting(int arr[], int length)
+{
+    int counter= 0;
     for (int i= 0; i< length; i++)
     {
-        for (int j= 2; j< first; j++)
+        if (prime(arr[i]))
         {
-            if (arr[i] % j!= 0)
-            {
-                counter++;
-                break;
-            }
+            counter++;
         }
     }
-    return counter;
 }
 
 int main(void)
@@ -37,7 +39,7 @@ int main(void)
         scanf("%i", &arr[i]);
     }
 
-    printf("%i", Prime_count(arr, length));
+    printf("%i", counting(arr, length));
 
     return 0;
 }
