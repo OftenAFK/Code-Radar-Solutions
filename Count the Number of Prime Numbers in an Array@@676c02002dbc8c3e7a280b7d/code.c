@@ -26,6 +26,7 @@ int counting(int arr[], int length)
             counter++;
         }
     }
+    return counter;
 }
 
 int main(void)
