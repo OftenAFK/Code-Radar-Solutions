@@ -6,7 +6,7 @@ int prime(int number)
     {
         return 0;
     }
-    for (int i= 0; i< number; i++)
+    for (int i= 2; i< number; i++)
     {
         if (number % i== 0)
         {
