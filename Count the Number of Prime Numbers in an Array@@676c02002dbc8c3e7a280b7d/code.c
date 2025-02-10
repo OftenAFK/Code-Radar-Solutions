@@ -14,7 +14,7 @@ int Prime_count(int arr[], int length)
 
     for (int i= 0; i< length; i++)
     {
-        for (int j= 0; j< first; j++)
+        for (int j= 2; j< first; j++)
         {
             if (arr[i] % j!= 0)
             {
