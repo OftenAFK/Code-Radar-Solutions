@@ -3,7 +3,7 @@
 int palindrome(int arr[], int length)
 {   
     int temp[50];
-    for (int i= 0; arr[i]!= '\0'; i++)
+    for (int i= 0; i< length; i++)
     {
         temp[i]= arr[length- i- 1];
     }
@@ -25,7 +25,7 @@ int main(void)
 
     for(int i= 0; i< length; i++)
     {
-        scanf("%i", arr[i])
+        scanf("%i", &arr[i])
     }
 
     if (palindrome(arr, length))
