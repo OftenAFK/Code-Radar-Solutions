@@ -10,12 +10,12 @@ int palindrome(int arr[], int length)
 
     for (int i= 0; temp[i]!= '\0'; i++)
     {
-        if (temp[i]!= arr[i])
+        if (temp[i]== arr[i])
         {
-            return 0;
+            return 1;
         }
     }
-    return 1;
+    return 0;
 }
 
 int main(void)
