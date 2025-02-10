@@ -19,6 +19,7 @@ int Prime_count(int arr[], int length)
             if (arr[i] % j!= 0)
             {
                 counter++;
+                break;
             }
         }
     }
