@@ -21,11 +21,11 @@ int palindrome(int arr[], int length)
 int main(void)
 {
     int length, arr[50];
-    scanf("%i", &length)
+    scanf("%i", &length);
 
     for(int i= 0; i< length; i++)
     {
-        scanf("%i", &arr[i])
+        scanf("%i", &arr[i]);
     }
 
     if (palindrome(arr, length))
