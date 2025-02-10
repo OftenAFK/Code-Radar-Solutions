@@ -27,9 +27,10 @@ int Prime_count(int arr[], int length)
 
 int main(void)
 {
-    int length, arr[length];
+    int length;
     scanf("%i", &length);
 
+    int arr[length];
     for (int i= 0; i< length; i++)
     {
         scanf("%i", &arr[i]);
