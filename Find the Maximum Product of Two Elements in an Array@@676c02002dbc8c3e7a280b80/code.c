@@ -45,6 +45,7 @@ int main(void)
     int length;
     scanf("%i", &length);
 
+    int arr[length];
     for (int i= 0; i< length; i++)
     {
         scanf("%i", &arr[i]);
