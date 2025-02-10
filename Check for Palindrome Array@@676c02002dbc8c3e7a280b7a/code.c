@@ -8,7 +8,7 @@ int palindrome(int arr[], int length)
         temp[i]= arr[length- i- 1];
     }
 
-    for (int i= 0; temp[i]!= '\0'; i++)
+    for (int i= 0; i< length; i++)
     {
         if (temp[i]!= arr[i])
         {
