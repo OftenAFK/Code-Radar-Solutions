@@ -35,5 +35,5 @@ int main(void)
         scanf("%i", &arr[i]);
     }
 
-    printf("%i", counting(arr, length))
+    printf("%i", counting(arr, length));
 }
