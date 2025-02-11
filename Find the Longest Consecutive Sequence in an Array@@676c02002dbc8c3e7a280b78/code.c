@@ -3,6 +3,7 @@
 int lds(int arr[], int length)
 {   
     int counter= 1;
+    int max_length= 1;
     for (int i= 0; i< length- 1; i++)
     {   
         if (arr[i]> arr[i+1])
@@ -11,9 +12,18 @@ int lds(int arr[], int length)
         }
         else if (arr[i]< arr[i+1])
         {
-            return counter;
+            if (counter > max_length)
+            {
+                max_length= counter;
+                counter= 0;
+            }
+            else
+            {
+                counter= 0;
+            }
         }
     }
+    return max_length
 }
 
 int main(void)
