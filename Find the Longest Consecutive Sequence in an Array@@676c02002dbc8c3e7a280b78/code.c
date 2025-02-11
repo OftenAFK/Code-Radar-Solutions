@@ -15,11 +15,11 @@ int lds(int arr[], int length)
             if (counter > max_length)
             {
                 max_length= counter;
-                counter= 0;
+                counter= 1;
             }
             else
             {
-                counter= 0;
+                counter= 1;
             }
         }
     }
