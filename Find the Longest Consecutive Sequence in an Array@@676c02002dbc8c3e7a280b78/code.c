@@ -23,7 +23,7 @@ int lds(int arr[], int length)
             }
         }
     }
-    return max_length
+    return max_length;
 }
 
 int main(void)
