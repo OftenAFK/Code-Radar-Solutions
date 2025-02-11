@@ -1,5 +1,8 @@
 #include <stdio.h>
 // hated this in python, im gonna hate this in C as well
+// turns out this isnt a question for lds, but rather hash, so ill let it be for now, idk how to use hash yet
+// or i can just find minimum, loop around it until i find minimum+1, then minimum+2 and so on, until i dont
+// but the time complexity... so nevermind, imma sleep.
 int lds(int arr[], int length)
 {   
     int counter= 1;
