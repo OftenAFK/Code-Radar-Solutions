@@ -23,6 +23,10 @@ int lds(int arr[], int length)
             }
         }
     }
+    if (counter > max_length)
+    {
+        max_length= counter;
+    }
     return max_length;
 }
 
