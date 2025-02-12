@@ -13,7 +13,7 @@ int repeating(int arr[], int length)
             }
             if (counter > 1)
             {
-                return arr[i]
+                return arr[i];
             }
         }
     }
