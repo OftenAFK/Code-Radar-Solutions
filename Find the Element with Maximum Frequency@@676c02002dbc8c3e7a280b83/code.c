@@ -13,7 +13,7 @@ int frequency(int arr[], int length)
                 counter++;
             }
         }
-        arr[i]= counter;
+        new_arr[i]= counter;
     }
 
     int max= 0;
