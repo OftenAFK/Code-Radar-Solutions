@@ -2,16 +2,11 @@
 
 int repeating(int arr[], int length)
 {
-    int counter= 0;
     for (int i= 0; i< length; i++)
     {
-        for (int j= 0; j< length; j++)
+        for (int j= i+1; j< length; j++)
         {
             if (arr[i]== arr[j])
-            {
-                counter++;
-            }
-            if (counter >= 2)
             {
                 return arr[i];
             }
