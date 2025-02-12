@@ -16,7 +16,7 @@ int frequency(int arr[], int length)
         new_arr[i]= counter;
     }
 
-    int max= new_arr[0];
+    int max= 0;
     for (int i= 0; i< length; i++)
     {
         if (arr[i]> max)
