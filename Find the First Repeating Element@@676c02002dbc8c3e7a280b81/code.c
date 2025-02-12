@@ -11,7 +11,7 @@ int repeating(int arr[], int length)
             {
                 counter++;
             }
-            if (counter > 1)
+            if (counter >= 2)
             {
                 return arr[i];
             }
