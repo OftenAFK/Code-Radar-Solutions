@@ -30,7 +30,6 @@ int frequency(int arr[], int length)
 int main(void)
 {
     int length;
-    printf("Enter length: ");
     scanf("%i", &length);
 
     int arr[length];
