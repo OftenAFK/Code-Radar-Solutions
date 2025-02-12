@@ -25,7 +25,7 @@ int frequency(int arr[], int length)
         }
     }
 
-    return arr[i]
+    return arr[i];
 }
 
 int main(void)
