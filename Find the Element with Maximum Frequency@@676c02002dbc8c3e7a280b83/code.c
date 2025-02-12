@@ -4,7 +4,7 @@ int frequency(int arr[], int length)
 {
     int new_arr[length];
     for (int i= 0; i< length; i++)
-    {   
+    {
         int counter= 0;
         for (int j= 0; j< length; j++)
         {
@@ -19,7 +19,7 @@ int frequency(int arr[], int length)
     int max= 0;
     for (int i= 0; i< length; i++)
     {
-        if (arr[i]> max)
+        if (new_arr[i]> max)
         {
             max= i;
         }
@@ -30,6 +30,7 @@ int frequency(int arr[], int length)
 int main(void)
 {
     int length;
+    printf("Enter length: ");
     scanf("%i", &length);
 
     int arr[length];
@@ -38,8 +39,9 @@ int main(void)
         scanf("%i", &arr[i]);
     }
 
-    printf("%i", frequency(arr, length));
+    printf("%i\n", frequency(arr, length));
 
     return 0;
 }
+
 
