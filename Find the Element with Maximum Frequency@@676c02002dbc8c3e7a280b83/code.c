@@ -24,7 +24,7 @@ int frequency(int arr[], int length)
             max= i;
         }
     }
-    return max;
+    return arr[max];
 }
 
 int main(void)
