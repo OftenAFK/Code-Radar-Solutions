@@ -2,6 +2,10 @@
 
 int rotate(int arr[], int length, int rotating_number)
 {   
+    if (rotating_number> length)
+    {
+        rotating_number= rotating_number - length;
+    }
     int new_arr[length], temp= length - rotating_number;
     for (int i= 0; i< rotating_number; i++)
     {
