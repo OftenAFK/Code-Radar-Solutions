@@ -35,7 +35,7 @@ int main(void)
     }
 
     int rotating_number;
-    scanf("%i", &rotating_number);
+    scanf("%i\n", &rotating_number);
     
     rotating(arr, length, rotating_number);
 
