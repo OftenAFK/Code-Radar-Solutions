@@ -1,7 +1,12 @@
 #include <stdio.h>
 
 int rotating(int arr[], int length, int rotating_number)
-{
+{   
+    if (rotating_number > length)
+    {
+        rotating_number= rotating_number % length;
+    }
+
     int new_arr[length];
     int temp= length- rotating_number;
     for (int i= 0; i< rotating_number; i++)
