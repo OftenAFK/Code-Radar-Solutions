@@ -5,7 +5,7 @@ int rotate(int arr[], int length, int rotating_number)
     int new_arr[length], temp= length - rotating_number;
     for (int i= 0; i< rotating_number; i++)
     {
-        new_arr[i]= arr[temp + i];
+        new_arr[i]= arr[temp + i- 1];
     }
 
     for (int i= rotating_number; i< length; i++)
