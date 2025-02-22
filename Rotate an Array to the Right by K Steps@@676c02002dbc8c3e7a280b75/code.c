@@ -2,10 +2,23 @@
 
 int rotate(int arr[], int length, int rotating_number)
 {   
-    if (rotating_number> length)
+    while (rotating_number > length) // important 
     {
-        rotating_number= rotating_number - length;
+        if (rotating_number> length)
+        {
+            rotating_number= rotating_number - length;
+        }
     }
+
+    // the implimentation of that while loop can also be done as 
+    
+    // if (rotating_number > length)
+    // {
+    //      rotating_number = rotating_number % length;
+    // }
+
+    // i just used the while loop method because i came up with it, chatgpt suggested modulo, which is better.
+    
     int new_arr[length], temp= length - rotating_number;
     for (int i= 0; i< rotating_number; i++)
     {
