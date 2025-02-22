@@ -16,7 +16,7 @@ int rotating(int arr[], int length, int rotating_number)
 
     for (int i= 0; i< length; i++)
     {
-        printf("%i", new_arr[i]);
+        printf("%i\n", new_arr[i]);
     }
 
     return 1;
@@ -35,7 +35,7 @@ int main(void)
     }
 
     int rotating_number;
-    scanf("%i\n", &rotating_number);
+    scanf("%i", &rotating_number);
     
     rotating(arr, length, rotating_number);
 
