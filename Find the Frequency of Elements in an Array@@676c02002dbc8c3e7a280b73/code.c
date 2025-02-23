@@ -33,11 +33,11 @@ void counting(int arr[], int length)
         }
         else 
         {
-            printf("%i %i", arr[i], counter);
+            printf("%i %i\n", arr[i], counter);
             counter= 1;
         }
     }
-    printf("%i %i", arr[length- 1], counter);
+    printf("%i %i\n", arr[length- 1], counter);
 }
 
 int main(void)
