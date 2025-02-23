@@ -15,7 +15,7 @@ void sorting(int arr[], int length)
         {
             if (arr[i] > arr[j])
             {
-                swap(arr[i], arr[j]);
+                swap(&arr[i], &arr[j]);
             }
         }
     }
@@ -29,14 +29,7 @@ void sorting(int arr[], int length)
         }
     }
     int result= arr[length] + 1;
-}
-
-int missing(int arr[], int length)
-{
-    for (int i= 0; i< length; i++)
-    {
-        
-    }
+    return result;
 }
 
 int main(void)
@@ -50,5 +43,7 @@ int main(void)
         scanf("%i", &arr[i]);
     }
 
-    printf(missing)
+    printf("%i\n", sorting(arr, length));
+
+    return 0;
 }
