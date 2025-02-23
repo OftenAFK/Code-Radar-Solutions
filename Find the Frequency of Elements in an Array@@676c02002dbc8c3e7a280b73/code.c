@@ -24,9 +24,9 @@ void sorting(int arr[], int length)
 void counting(int arr[], int length)
 {   
     sorting(arr, length);
+    int counter= 1;
     for (int i= 0; i< length-1; i++)
     {   
-        int counter= 1;
         if (arr[i]== arr[i+1])
         {
             counter++;
