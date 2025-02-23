@@ -1,30 +1,88 @@
 #include <stdio.h>
 
-int frequency(int arr[], int length)
+int swap(int *first, int *second)
 {
-    int new_arr[length];
+    int temp= *first;
+    *first= *second;
+    *second= temp;
+}
+
+void sorting(int arr[], length)
+{
+    for (int i= 0; i< length- 1; i++)
+    {
+        for (int j= i+1; j< length; j++)
+        {
+            swap(&arr[i], &arr[j]);
+        }
+    }
+}
+
+int max(int arr[], int length)
+{
+    int first= arr[0]
     for (int i= 0; i< length; i++)
     {
-        int counter= 0;
-        for (int j= 0; j< length; j++)
+        if (arr[i]> first)
         {
-            if (arr[i]== arr[j])
-            {
-                counter++;
-            }
+            first= arr[i];
         }
-        new_arr[i]= counter;
     }
 
-    int max= 0;
-    for (int i= 0; i< length; i++)
+    return first;
+}
+
+void dups(int arr, length)
+{   
+    sorting(arr, length);
+
+    int j= 0;
+    for (int i= 1; i< length- 1; i++)
     {
-        if (new_arr[i]> max)
+        if (arr[i]!= arr[i-1])
         {
-            max= i;
+            arr[j]= arr[i];
+            j++;
         }
     }
-    return arr[max];
+    arr[j]= arr[length - 1];
+    j++;
+}
+
+void frequency(int arr[], int length)
+{   
+    sorting(arr, length);
+
+    int freq[length];
+    for (int i= 0; i< length; i++)
+    {
+        freq[i]= 0;
+    }
+
+    int counter= 1;
+    for (int i= 1; i< length; i++)
+    {   
+        if (arr[i]== arr[i-1])
+        {
+            counter++;
+        }
+        else 
+        {
+            freq[i]= counter;
+            counter= 1;
+        }
+    }
+
+    int result= max(freq, length);
+    dups(arr, length);
+
+    for(int i= 0; i< length; i++)
+    {
+        if (freq[i]== result)
+        {
+            printf("%i", arr[i]);
+        }
+    }
 }
 
 int main(void)
