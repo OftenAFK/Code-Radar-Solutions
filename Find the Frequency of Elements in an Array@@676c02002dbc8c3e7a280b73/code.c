@@ -7,7 +7,7 @@ void swap(int *first, int *second)
     *second= temp;
 }
 
-int sorting(int arr[], int length)
+void sorting(int arr[], int length)
 {
     for (int i= 0; i< length - 1; i++)
     {
@@ -43,7 +43,7 @@ void counting(int arr[], int length)
         frequency[i]= counter;
     }
 
-    temp= 0;
+    int temp= 0;
     while (new_arr[temp]!= 0 && frequency[temp]!= 0)
     {
         printf("%i %i\n", new_arr[temp], frequency[temp]);
