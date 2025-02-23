@@ -24,7 +24,12 @@ void sorting(int arr[], int length)
 void counting(int arr[], int length)
 {   
     sorting(arr, length);
-    int new_arr[length]= {0}, frequency[length]= {0};
+    int new_arr[length], frequency[length];
+    for (int i = 0; i < length; i++) 
+    {
+        new_arr[i] = 0;
+        frequency[i] = 0;
+    }
 
     for (int i= 0; i< length; i++)
     {   
