@@ -35,9 +35,8 @@ void counting(int arr[], int length)
     {   
         int counter= 0;
 
-        for (int j= 0; j< length;)
+        for (int j= 0; j< length; j+= counter)
         {   
-            j += counter;
             if (new_arr[i]== arr[j])
             {
                 counter++;
@@ -52,6 +51,7 @@ void counting(int arr[], int length)
     while (new_arr[temp]!= 0 && frequency[temp]!= 0)
     {
         printf("%i %i\n", new_arr[temp], frequency[temp]);
+        temp++;
     }
 }
 
