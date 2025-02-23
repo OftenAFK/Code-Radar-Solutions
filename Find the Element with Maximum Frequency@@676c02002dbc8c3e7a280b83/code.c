@@ -7,13 +7,16 @@ int swap(int *first, int *second)
     *second= temp;
 }
 
-void sorting(int arr[], length)
+void sorting(int arr[], int length)
 {
     for (int i= 0; i< length- 1; i++)
     {
         for (int j= i+1; j< length; j++)
         {
-            swap(&arr[i], &arr[j]);
+            if (arr[i]> arr[j])
+            {
+                swap(&arr[i], &arr[j]);
+            }
         }
     }
 }
@@ -32,7 +35,7 @@ int max(int arr[], int length)
     return first;
 }
 
-void dups(int arr, length)
+void dups(int arr[], int length)
 {   
     sorting(arr, length);
 
@@ -96,7 +99,7 @@ int main(void)
         scanf("%i", &arr[i]);
     }
 
-    printf("%i\n", frequency(arr, length));
+    frequency(arr, length);
 
     return 0;
 }
