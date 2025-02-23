@@ -24,34 +24,18 @@ void sorting(int arr[], int length)
 void counting(int arr[], int length)
 {   
     sorting(arr, length);
-    int new_arr[length], frequency[length];
-    for (int i = 0; i < length; i++) 
-    {
-        new_arr[i] = 0;
-        frequency[i] = 0;
-    }
-
-    for (int i= 0; i< length; i++)
+    for (int i= 0; i< length-1; i++)
     {   
-        int counter= 0;
-
-        for (int j= 0; j< length; j+= counter)
-        {   
-            if (new_arr[i]== arr[j])
-            {
-                counter++;
-                new_arr[i]= arr[j];
-            }
+        int counter= 1;
+        if (arr[i]== arr[i+1])
+        {
+            counter++;
         }
-
-        frequency[i]= counter;
-    }
-
-    int temp= 0;
-    while (new_arr[temp]!= 0 && frequency[temp]!= 0)
-    {
-        printf("%i %i\n", new_arr[temp], frequency[temp]);
-        temp++;
+        else 
+        {
+            printf("%i %i", arr[i], count);
+            count= 1;
+        }
     }
 }
 
