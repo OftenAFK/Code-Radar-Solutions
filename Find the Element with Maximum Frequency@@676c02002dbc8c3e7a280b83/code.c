@@ -23,7 +23,7 @@ void sorting(int arr[], int length)
 
 int max(int arr[], int length)
 {
-    int first= arr[0]
+    int first= arr[0];
     for (int i= 0; i< length; i++)
     {
         if (arr[i]> first)
