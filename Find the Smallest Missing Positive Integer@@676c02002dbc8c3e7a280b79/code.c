@@ -7,7 +7,7 @@ void swap(int first, int second)
     *second= temp;
 }
 
-void sorting(int arr[], int length)
+int sorting(int arr[], int length)
 {
     for (int i= 0; i< length; i++)
     {
