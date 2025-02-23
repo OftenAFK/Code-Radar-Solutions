@@ -34,7 +34,7 @@ void counting(int arr[], int length)
         else 
         {
             printf("%i %i", arr[i], count);
-            count= 1;
+            counter= 1;
         }
     }
 }
