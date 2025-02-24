@@ -1,13 +1,13 @@
 #include <stdio.h>
 
-int swap(int *first, int *second)
+void swap(int *first, int *second)
 {
     int temp= *first;
     *first= *second;
     *second= temp;
 }
 
-int sorting(int arr, int length)
+void sorting(int arr, int length)
 {
     for (int i= 0; i< length- 1; i++)
     {
