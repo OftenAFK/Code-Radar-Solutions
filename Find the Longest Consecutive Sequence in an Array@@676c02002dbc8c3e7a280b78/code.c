@@ -1,36 +1,40 @@
 #include <stdio.h>
-// hated this in python, im gonna hate this in C as well
-// turns out this isnt a question for lds, but rather hash, so ill let it be for now, idk how to use hash yet
-// or i can just find minimum, loop around it until i find minimum+1, then minimum+2 and so on, until i dont
-// but the time complexity... so nevermind, imma sleep.
-int lds(int arr[], int length)
-{   
-    int counter= 1;
-    int max_length= 1;
+
+int swap(int *first, int *second)
+{
+    int temp= *first;
+    *first= *second;
+    *second= temp;
+}
+
+int sorting(int arr, int length)
+{
     for (int i= 0; i< length- 1; i++)
-    {   
-        if (arr[i]> arr[i+1])
+    {
+        for (int j= i+1; j< length; j++)
+        {
+            if (arr[i]> arr[j])
+            {
+                swap(&arr[i], &arr[j]);
+            }
+        }
+    }
+}
+
+int counting(int arr, int length)
+{   
+    sorting(arr, length);
+    int counter= 0;
+
+    for (int i= 1; i< length; i++)
+    {
+        if (arr[i]== arr[i-1])
         {
             counter++;
         }
-        else if (arr[i]< arr[i+1])
-        {
-            if (counter > max_length)
-            {
-                max_length= counter;
-                counter= 1;
-            }
-            else
-            {
-                counter= 1;
-            }
-        }
     }
-    if (counter > max_length)
-    {
-        max_length= counter;
-    }
-    return max_length;
+
+    return counter;
 }
 
 int main(void)
@@ -44,7 +48,6 @@ int main(void)
         scanf("%i", &arr[i]);
     }
 
-    printf("%i", lds(arr, length));
-
+    printf("%i", counting(arr, length));
     return 0;
 }
