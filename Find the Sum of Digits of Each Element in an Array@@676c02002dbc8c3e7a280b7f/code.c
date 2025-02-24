@@ -26,7 +26,7 @@ int sum_of_digits(int number)
 int sum_of_elements(int arr[], int length)
 {
     int sum_arr[length];
-    for (int i= 0; i< length: i++)
+    for (int i= 0; i< length; i++)
     {
         result= sum_of_digits(arr[i]);
         sum_arr[i]= result;
