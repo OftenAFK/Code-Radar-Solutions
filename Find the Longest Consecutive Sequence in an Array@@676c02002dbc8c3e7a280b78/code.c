@@ -21,7 +21,7 @@ void sorting(int arr[], int length)
     }
 }
 
-int counting(int arr, int length)
+int counting(int arr[], int length)
 {   
     sorting(arr, length);
     int counter= 0;
