@@ -2,7 +2,11 @@
 
 int sum_of_digits(int number)
 {   
-    number= (int) number * number / number;
+    if (number < 0)
+    {
+        number= number * (-1);
+    }
+    
     int length= 0;
     for (int i= number; i!= 0; i /= 10)
     {
