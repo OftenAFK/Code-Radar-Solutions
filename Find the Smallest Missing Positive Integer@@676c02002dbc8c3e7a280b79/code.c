@@ -27,10 +27,6 @@ int devchic(int arr[], int length)
     {
         return 1;
     }
-    if (arr[0] > 0 && arr[0]!= 1)
-    {
-        return 1;
-    }
 
     sorting(arr, length);
     for (int i= 0; i< length; i++)
