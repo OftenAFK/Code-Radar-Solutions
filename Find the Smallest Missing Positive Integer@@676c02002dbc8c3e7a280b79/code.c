@@ -19,17 +19,21 @@ int sorting(int arr[], int length)
             }
         }
     }
+}
 
-    for (int i= 0; i< length-1; i++)
+int devchic(int arr[], int length)
+{   
+    sorting(arr, length);
+    for (int i= 0; i< length; i++)
     {
-        if (arr[i] >= 0 && arr[i+1]!= 1+ arr[i])
+        if (arr[i] + 1 != arr[i+1])
         {
             int result= arr[i] + 1;
             return result;
         }
     }
-    int result= arr[length] + 1;
-    return result;
+
+    return arr[length] + 1;
 }
 
 int main(void)
@@ -43,7 +47,7 @@ int main(void)
         scanf("%i", &arr[i]);
     }
 
-    printf("%i\n", sorting(arr, length));
+    printf("%i\n", devchic(arr, length));
 
     return 0;
 }
