@@ -44,7 +44,7 @@ int devchic(int arr[], int length)
             int result= arr[i] + 1;
             return result;
         }
-        else if (arr[i] < 0);
+        else if (arr[i] < 0)
         {
             temp++;
         }
