@@ -7,7 +7,7 @@ void swap(int *first, int *second)
     *second= temp;
 }
 
-int sorting(int arr[], int length)
+void sorting(int arr[], int length)
 {
     for (int i= 0; i< length; i++)
     {
@@ -36,7 +36,7 @@ int devchic(int arr[], int length)
     {
         return 1;
     }
-    
+
     for (int i= 0; i< length; i++)
     {   
         if (arr[i]> 0 && arr[i]!= (arr[i+1] - 1))
