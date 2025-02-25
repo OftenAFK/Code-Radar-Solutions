@@ -23,6 +23,10 @@ int sorting(int arr[], int length)
 
 int devchic(int arr[], int length)
 {   
+    if (length== 1)
+    {
+        return arr[0];
+    }
     sorting(arr, length);
     for (int i= 0; i< length; i++)
     {
