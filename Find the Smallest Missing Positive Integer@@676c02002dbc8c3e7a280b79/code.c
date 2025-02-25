@@ -24,9 +24,9 @@ int sorting(int arr[], int length)
 int devchic(int arr[], int length)
 {   
     sorting(arr, length);
-    for (int i= 0; i< length- 1; i++)
+    for (int i= 0; i< length; i++)
     {
-        if (arr[i] + 1 != arr[i+1])
+        if (arr[i]> 0 && arr[i]!= (arr[i+1] - 1))
         {
             int result= arr[i] + 1;
             return result;
