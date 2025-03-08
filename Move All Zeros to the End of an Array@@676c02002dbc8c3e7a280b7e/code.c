@@ -17,7 +17,7 @@ void moving_zeroes(int arr[], int length)
 
     for (int i= 0; i< length; i++)
     {
-        printf("%i ", arr[i]);
+        printf("%i ", arr[length- i- 1]);
     }
 
     printf("\n");
