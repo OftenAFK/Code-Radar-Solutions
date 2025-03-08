@@ -8,8 +8,9 @@ void moving_zeroes(int arr[], int length)
         {
             if (arr[i]== 0 && arr[j]!= 0)
             {
+                int temp= arr[i];
                 arr[i]= arr[j];
-                arr[j]= 0;
+                arr[j]= temp;
             }
         }
     }
