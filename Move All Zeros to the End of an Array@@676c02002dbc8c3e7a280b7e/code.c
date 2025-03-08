@@ -2,9 +2,9 @@
 
 void moving_zeroes(int arr[], int length)
 {
-    for (int i= 0; i< length; i++)
+    for (int i= 0; i< length- 1; i++)
     {
-        for (int j= 0; j< length; j++)
+        for (int j= i+ 1; j< length; j++)
         {
             if (arr[i]== 0 && arr[j]!= 0)
             {
