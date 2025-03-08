@@ -10,7 +10,6 @@ void moving_zeroes(int arr[], int length)
             {
                 arr[i]= arr[j];
                 arr[j]= 0;
-                break;
             }
         }
     }
