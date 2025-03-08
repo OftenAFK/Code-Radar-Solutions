@@ -21,7 +21,7 @@ void moving_zeroes(int arr[], int length)
     }
 
     printf("\n");
-}
+
 
 // void sorting(int arr[], int length)
 // {
