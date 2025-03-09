@@ -9,7 +9,7 @@ void leaders(int arr[], int length)
         int counter= 0;
         for (int j= i+1; j< length; j++)
         {
-            if (arr[i] > arr[j])
+            if (arr[i] >= arr[j])
             {
                 counter++;
             }
