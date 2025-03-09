@@ -46,28 +46,35 @@ int findIndex(int arr[], int length, int target)
 }
 
 void counting(int arr[], int length)
-{
-    quickSort(arr, 0, length- 1);
-    int difference[length- 1];
-
-    for (int i= 0; i< length- 1; i++)
+{   
+    if (length= 1)
     {
-        int temp= arr[i+1]- arr[i];
-        difference[i]= temp;
+        printf("-1\n");
     }
-
-    int least = difference[0];
-    for (int i= 1; i< length- 1; i++)
+    else
     {
-        if (difference[i] < least)
+        quickSort(arr, 0, length- 1);
+        int difference[length- 1];
+
+        for (int i= 0; i< length- 1; i++)
         {
-            least= difference[i];
+            int temp= arr[i+1]- arr[i];
+            difference[i]= temp;
         }
-    }
 
-    int index= findIndex(difference, length- 1, least);
-    
-    printf("%i %i", arr[index], arr[index + 1]);
+        int least = difference[0];
+        for (int i= 1; i< length- 1; i++)
+        {
+            if (difference[i] < least)
+            {
+                least= difference[i];
+            }
+        }
+
+        int index= findIndex(difference, length- 1, least);
+        
+        printf("%i %i", arr[index], arr[index + 1]);
+    }
 }
 
 int main(void)
