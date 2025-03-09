@@ -1,7 +1,12 @@
 #include <stdio.h>
 
 int palindrome_checker(int number)
-{
+{   
+    if (number < 0)
+    {
+        return 0;
+    }
+    
     int length= 0;
     for (int i= number; i!= 0; i/= 10)
     {
