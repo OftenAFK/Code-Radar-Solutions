@@ -56,7 +56,7 @@ void counting(int arr[], int length)
         difference[i]= temp;
     }
 
-    int least = difference[0]
+    int least = difference[0];
     for (int i= 1; i< length- 1; i++)
     {
         if (difference[i] < least)
