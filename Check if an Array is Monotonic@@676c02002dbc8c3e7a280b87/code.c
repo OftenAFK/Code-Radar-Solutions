@@ -16,7 +16,7 @@ int checking_if_sorted(int arr[], int length)
         }
     }
 
-    if (ascending== length || descending== length && ascending != descending)
+    if (ascending== length- 1 || descending== length- 1)
     {
         return 1;
     }
