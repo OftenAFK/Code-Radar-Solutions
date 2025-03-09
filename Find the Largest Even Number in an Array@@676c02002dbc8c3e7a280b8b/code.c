@@ -1,8 +1,9 @@
 #include <stdio.h>
+#include <limits.h>
 
 int largest_even_number(int arr[], int length)
 {   
-    int largest= -1;
+    int largest= INT_MIN;
     for (int i= 0; i< length; i++)
     {
         if (arr[i] > largest && arr[i] % 2== 0)
