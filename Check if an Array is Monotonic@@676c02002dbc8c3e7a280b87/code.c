@@ -16,7 +16,7 @@ int checking_if_sorted(int arr[], int length)
         }
     }
 
-    if (ascending== length- 1 || descending== length- 1)
+    if (ascending== length|| descending== length)
     {
         return 1;
     }
@@ -34,7 +34,7 @@ int main(void)
         scanf("%i", &arr[i]);
     }
 
-    if (checking_if_sorted)
+    if (checking_if_sorted(arr, length))
     {
         printf("YES\n");
     }
