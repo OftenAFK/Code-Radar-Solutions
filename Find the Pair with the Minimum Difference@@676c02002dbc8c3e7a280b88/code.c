@@ -47,7 +47,7 @@ int findIndex(int arr[], int length, int target)
 
 void counting(int arr[], int length)
 {   
-    if (length= 1)
+    if (length== 1)
     {
         printf("-1\n");
     }
