@@ -107,6 +107,8 @@ int frequency(int arr[], int length)
             count= 1;
         }
     }
+    
+    frequency[frequencyIndex] = count;
 
     int maxFrequency= max(frequency, length_without_dups), temp= 0;
 
