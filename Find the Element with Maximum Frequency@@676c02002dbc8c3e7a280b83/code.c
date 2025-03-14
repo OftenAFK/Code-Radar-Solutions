@@ -112,7 +112,7 @@ int frequency(int arr[], int length)
 
     for (int i= 0; i< length_without_dups; i++)
     {
-        if (arr[i]== maxFrequency)
+        if (frequency[i]== maxFrequency)
         {
             temp= i;
             break;
